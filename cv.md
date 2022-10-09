@@ -30,10 +30,11 @@ I’m interested in Software Development because it has project-based structure,
 >
 > function onStartBtn(e) {
 >
-> > // Disables a start btn, while function is running
-> > e.target.disabled = true;
+> > > // Disables a start btn, while function is running
+> > > e.target.disabled = true;
 >
 > > if (e.target.disabled) {
+> >
 > > // Changes the <body> background color
 > > timerID = setInterval(() => {
 > > refs.body.style.backgroundColor = getRandomHexColor();
@@ -64,9 +65,11 @@ I’m interested in Software Development because it has project-based structure,
 
 ### Education:
 
-**The National Law Academy of Ukraine named after Yaroslav the Wise**
-2018-2023 PhD. Postgraduate, International Law
-2008-2015 M. Sc. Law. Lawyer
+> **The National Law Academy of Ukraine named after Yaroslav the Wise**
+>
+> > 2018-2023 PhD. Postgraduate, International Law
+>
+> > 2008-2015 M. Sc. Law. Lawyer
 
 ### Language:
 
