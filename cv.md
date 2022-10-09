@@ -65,11 +65,11 @@ I’m interested in Software Development because it has project-based structure,
 
 ### Education:
 
-> **The National Law Academy of Ukraine named after Yaroslav the Wise**
+**The National Law Academy of Ukraine named after Yaroslav the Wise**
+
+> 2018-2023 PhD. Postgraduate, International Law
 >
-> > 2018-2023 PhD. Postgraduate, International Law
->
-> > 2008-2015 M. Sc. Law. Lawyer
+> 2008-2015 M. Sc. Law. Lawyer
 
 ### Language:
 
