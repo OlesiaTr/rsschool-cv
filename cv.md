@@ -4,10 +4,10 @@
 
 ### Contacts:
 
-- Discord:
-- E-mail:
-- Telegram:
-- Github:
+- Discord: @Cranky#2826
+- E-mail: olesyatrebina@gmail.com
+- Telegram: @olesiatrebina
+- Github: @olesiatr
 
 ### About myself
 
@@ -29,28 +29,31 @@ I’m interested in Software Development because it has project-based structure,
 > refs.stop.addEventListener('click', onStopBtn);
 >
 > function onStartBtn(e) {
-> // Disables a start btn, while function is running
-> e.target.disabled = true;
 >
-> if (e.target.disabled) {
-> // Changes the <body> background color
-> timerID = setInterval(() => {
-> refs.body.style.backgroundColor = getRandomHexColor();
-> }, 1000);
-> }
-> }
+> > // Disables a start btn, while function is running
+> > e.target.disabled = true;
+>
+> > if (e.target.disabled) {
+> > // Changes the <body> background color
+> > timerID = setInterval(() => {
+> > refs.body.style.backgroundColor = getRandomHexColor();
+> > }, 1000);
+> > }
+> > }
 >
 > function onStopBtn() {
-> // Activates a start btn
-> refs.start.disabled = false;
-> // Clears a timer
-> clearInterval(timerID);
-> }
+>
+> > // Activates a start btn
+> > refs.start.disabled = false;
+> > // Clears a timer
+> > clearInterval(timerID);
+> > }
 >
 > function getRandomHexColor() {
-> // Generates a random color
-> return `#${Math.floor(Math.random() * 16777215).toString(16)} `;
-> }
+>
+> > // Generates a random color
+> > return `#${Math.floor(Math.random() * 16777215).toString(16)} `;
+> > }
 
 ### Courses:
 
@@ -67,9 +70,9 @@ I’m interested in Software Development because it has project-based structure,
 
 ### Language:
 
-- **ENGLISH**
+- **English**
   Upper-intermediate
-- **UKRAINIAN**
+- **Ukrainian**
   Native
-- **RUSSIAN**
+- **Russian**
   Native
