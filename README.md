@@ -1,3 +1,1 @@
-# rsschool-cv
-
-## Here you can see my [CV Markdown](https://olesiatr.github.io/rsschool-cv/cv)
+# My [CV](https://olesiatr.github.io/rsschool-cv/) created with HTML and CSS
