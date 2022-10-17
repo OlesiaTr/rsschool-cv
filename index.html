@@ -57,19 +57,22 @@
           <ol class="projects__list">
             <li class="projects__item">
               <a href="https://dmutriy.github.io/goit-markup-team-project/" class="projects__links" target="_blank"
-                rel="noopener noreferrer">https://dmutriy.github.io/goit-markup-team-project/</a>
+                rel="noopener noreferrer"
+                aria-label="Icecream project">https://dmutriy.github.io/goit-markup-team-project/</a>
               <span class="fill_in_text">.........</span>
               [ <span class="fill_in_text">HTML5, CSS3</span>]
             </li>
             <li class="projects__item">
               <a href="https://olesiatr.github.io/goit-markup-hw-08/" class="projects__links" target="_blank"
-                rel="noopener noreferrer">https://olesiatr.github.io/goit-markup-hw-08/</a>
+                rel="noopener noreferrer"
+                aria-label="WebStudio project">https://olesiatr.github.io/goit-markup-hw-08/</a>
               <span class="fill_in_text">.........................</span>
               [ <span class="fill_in_text">HTML5, CSS3, SCSS</span>]
             </li>
             <li class="projects__item">
               <a href="https://effortless-elf-0edeae.netlify.app/" class="projects__links" target="_blank"
-                rel="noopener noreferrer">https://effortless-elf-0edeae.netlify.app/</a>
+                rel="noopener noreferrer"
+                aria-label="Weather app project">https://effortless-elf-0edeae.netlify.app/</a>
               <span class="fill_in_text">.....................................</span>
               [
               <span class="fill_in_text">HTML5, CSS3, Bootstrap, JavaScript</span>]
@@ -91,10 +94,10 @@ function onSubmit(e) {
   for (let position = 1; position &lt;= amount; position += 1) {
     // Returns one promise that will be fulfilled or rejected after delay time.
     createPromise(position, delay)
-      .then(({ position, delay }) => {
+      .then(({ position, delay }) =&gt; {
         return Notify.success(`Fullfilled promise ${position} in ${delay}ms`);
       })
-      .catch(({ position, delay }) => {
+      .catch(({ position, delay }) =&gt; {
         return Notify.failure(`Rejected promise ${position} in ${delay}ms`);
       });
     // Adds delay on next step after each promise.
@@ -114,11 +117,12 @@ function onSubmit(e) {
             <li class="courses__item">
               <span class="courses__name">SheCodes</span>
               <a href="https://www.shecodes.io/certificates/969ee2246449988ba49a5c7a87a00534" class="courses__link"
-                target="_blank" rel="noopener noreferrer">Basics</a>,
+                target="_blank" rel="noopener noreferrer" aria-label="SheCodes Basics certificate">Basics</a>,
               <a href="https://www.shecodes.io/certificates/13867a2a6a15bf268260e0bf23cfcd35" class="courses__link"
-                target="_blank" rel="noopener noreferrer">Plus</a>,
+                target="_blank" rel="noopener noreferrer" aria-label="SheCodes Plus certificate">Plus</a>,
               <a href="https://www.shecodes.io/certificates/482a7637bebb87d5135b3476e4325680" class="courses__link"
-                target="_blank" rel="noopener noreferrer">Responsive</a>, React<span class="line"> | </span>ongoing
+                target="_blank" rel="noopener noreferrer" aria-label="SheCodes Responsive certificate">Responsive</a>,
+              React<span class="line"> | </span>ongoing
             </li>
             <li class="courses__item">
               <span class="courses__name">The Rolling Scopes School</span>
@@ -168,25 +172,28 @@ function onSubmit(e) {
         <ul class="contacts__list list">
           <li class="contacts__item">
             <a href="https://discord.com/users/Cranky#2826" class="contacts__logo" target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer" aria-label="Discord">
               <svg class="contacts__logo--icon" width="20" height="20">
                 <use href="./img/symbol-defs.svg#icon-discord"></use>
               </svg>@Cranky#2826</a>
           </li>
           <li class="contacts__item">
-            <a href="mailto:olesyatrebina@gmail.com" class="contacts__logo" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:olesyatrebina@gmail.com" class="contacts__logo" target="_blank" rel="noopener noreferrer"
+              aria-label="Email">
               <svg class="contacts__logo--icon" width="20" height="20">
                 <use href="./img/symbol-defs.svg#icon-mail"></use>
               </svg>olesyatrebina@gmail.com</a>
           </li>
           <li class="contacts__item">
-            <a href="https://t.me/olesiatrebina" class="contacts__logo" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/olesiatrebina" class="contacts__logo" target="_blank" rel="noopener noreferrer"
+              aria-label="Telegram">
               <svg class="contacts__logo--icon" width="20" height="20">
                 <use href="./img/symbol-defs.svg#icon-telegram"></use>
               </svg>@olesiatrebina</a>
           </li>
           <li class="contacts__item">
-            <a href="https://github.com/OlesiaTr" class="contacts__logo" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/OlesiaTr" class="contacts__logo" target="_blank" rel="noopener noreferrer"
+              aria-label="Github">
               <svg class="contacts__logo--icon" width="20" height="20">
                 <use href="./img/symbol-defs.svg#icon-github"></use>
               </svg>@olesiatr</a>
@@ -248,8 +255,8 @@ function onSubmit(e) {
       <li class="footer__item">
         <p>
           ©
-          <a href="https://github.com/OlesiaTr" class="footer__link" target="_blank"
-            rel="noopener noreferrer">open-source code</a>
+          <a href="https://github.com/OlesiaTr" class="footer__link" target="_blank" rel="noopener noreferrer"
+            aria-label="Github">open-source code</a>
           by Olesia Trebina for
         </p>
       </li>
