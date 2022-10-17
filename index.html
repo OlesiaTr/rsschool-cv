@@ -91,10 +91,10 @@ function onSubmit(e) {
   for (let position = 1; position &lt;= amount; position += 1) {
     // Returns one promise that will be fulfilled or rejected after delay time.
     createPromise(position, delay)
-      .then(({ position, delay }) => {
+      .then(({ position, delay }) =&gt; {
         return Notify.success(`Fullfilled promise ${position} in ${delay}ms`);
       })
-      .catch(({ position, delay }) => {
+      .catch(({ position, delay }) =&gt; {
         return Notify.failure(`Rejected promise ${position} in ${delay}ms`);
       });
     // Adds delay on next step after each promise.
